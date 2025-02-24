@@ -38,7 +38,7 @@ Please execute the following command:
     $ flask --app hello run
 
 Open a new terminal windows for testing the API using a HTTP client
-as ``curl`` command.
+as `curl <https://curl.se/>`_ command.
 
 
 ----
@@ -47,7 +47,7 @@ as ``curl`` command.
 Make requests
 =============
 
-the ``curl`` command allows you to quickly test an API from the terminal without
+The ``curl`` command allows you to quickly test an API from the terminal without
 the need for having to download a specific application.
 
 
