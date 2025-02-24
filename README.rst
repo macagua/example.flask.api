@@ -27,6 +27,7 @@ Please execute the following commands:
 
 ----
 
+
 Running
 =======
 
@@ -37,7 +38,10 @@ Please execute the following command:
     $ flask --app hello run
 
 Open a new terminal windows for testing the API using a HTTP client
-as ``curl`` command, executing the following command:
+as ``curl`` command.
+
+
+----
 
 
 Make requests
