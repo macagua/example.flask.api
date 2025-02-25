@@ -106,14 +106,18 @@ That is, you are actually deleting the information of the user with the id ``4``
 
 This way I make the API requests using the ``curl`` command.
 
+
 ----
+
 
 License
 ========
 
 This project is licensed under the MIT License - see the `LICENSE`_ file for details.
 
+
 ----
+
 
 References
 ==========
