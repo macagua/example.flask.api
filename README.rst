@@ -35,7 +35,7 @@ Please execute the following command:
 
 ::
 
-    $ flask --app hello run
+    $ flask run
 
 Open a new terminal windows for testing the API using a HTTP client
 as `curl <https://curl.se/>`_ command.
