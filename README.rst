@@ -108,6 +108,13 @@ This way I make the API requests using the ``curl`` command.
 
 ----
 
+License
+========
+
+This project is licensed under the MIT License - see the `LICENSE`_ file for details.
+
+----
+
 References
 ==========
 
