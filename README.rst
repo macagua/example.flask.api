@@ -109,6 +109,21 @@ This way I make the API requests using the ``curl`` command.
 
 ----
 
+Testing
+=======
+
+To run the tests, please execute the following command:
+
+::
+
+    $ pytest -v
+
+
+This way you can check that the application is working correctly.
+
+
+----
+
 
 License
 ========
@@ -123,3 +138,5 @@ References
 ==========
 
 - `Quickstart — Flask documentation <https://flask.palletsprojects.com/en/stable/quickstart/>`_.
+- `SQLAlchemy Unified Tutorial <https://docs.sqlalchemy.org/en/20/tutorial/index.html#unified-tutorial>`_.
+- `Testing Flask Applications — Flask documentation <https://flask.palletsprojects.com/en/stable/testing/>`_.
