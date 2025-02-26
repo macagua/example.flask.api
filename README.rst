@@ -58,7 +58,7 @@ request GET with response 200
 
     $ curl -X GET http://127.0.0.1:5000/
 
-The above command demonstrates how to perform a ``GET`` method to get the users registered
+The above command demonstrates how to perform a ``GET`` request to get the users registered
 by default in the database as a ``READ`` operation into a ``CRUD`` application.
 
 request POST json format
@@ -68,7 +68,7 @@ request POST json format
 
     $ curl -X POST http://localhost:5000/create -H "Content-Type: application/json" -d '{"name": "John Doe", "address": "123 Main St"}'
 
-The command above demonstrates how to perform a ``POST`` method with a ``json`` format.
+The command above demonstrates how to perform a ``POST`` request with a ``json`` format.
 That is, it is actually inserting a new user into the database  as a ``CREATE`` operation
 into a ``CRUD`` application.
 
@@ -79,7 +79,7 @@ request GET with response 200
 
     $ curl -X GET http://127.0.0.1:5000/detail/4
 
-The above command demonstrates how to perform a ``GET`` method to get the detailed
+The above command demonstrates how to perform a ``GET`` request to get the detailed
 information of the user with the id ``4`` as a ``READ`` operation into a ``CRUD`` application.
 
 request PUT json format
@@ -89,7 +89,7 @@ request PUT json format
 
     $ curl -X PUT http://127.0.0.1:5000/update/4 -H "Content-Type: application/json" -d '{"name": "Jane Doe", "address": "456 Elm St"}'
 
-The above command demonstrates how to perform a ``PUT`` method with a ``json`` format.
+The above command demonstrates how to perform a ``PUT`` request with a ``json`` format.
 That is, it is actually updating the user information with the id ``4``  as a ``UPDATE``
 operation into a ``CRUD`` application.
 
@@ -100,7 +100,7 @@ request DELETE
 
     $ curl -X DELETE http://127.0.0.1:5000/delete/4
 
-The above command demonstrates how to perform a ``DELETE`` method with a ``json`` format.
+The above command demonstrates how to perform a ``DELETE`` request with a ``json`` format.
 That is, you are actually deleting the information of the user with the id ``4`` as a
 ``DELETE`` operation into a ``CRUD`` application.
 
